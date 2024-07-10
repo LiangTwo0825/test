@@ -7,7 +7,7 @@
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
-    <button class="btn" @click="add">{{ state.data.num }}</button>
+    <button class="btn" @click="add">点击{{ state.data.num }}次</button>
   </div>
 </template>
 <script setup>
